@@ -124,6 +124,8 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/libjpu.so:system/lib/libjpu.so \
 	vendor/huawei/hwgra/proprietary/lib64/libjpu.so:system/lib64/libjpu.so \
 	vendor/huawei/hwgra/proprietary/lib/libcamera_ae.so:system/lib/libcamera_ae.so \
+	vendor/huawei/hwgra/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+	vendor/huawei/hwgra/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
 	vendor/huawei/hwgra/proprietary/lib/libcamera_algo.so:system/lib/libcamera_algo.so \
 	vendor/huawei/hwgra/proprietary/lib/libcamera_flash.so:system/lib/libcamera_flash.so \
 	vendor/huawei/hwgra/proprietary/lib/libcamera_af.so:system/lib/libcamera_af.so \
@@ -581,8 +583,8 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
     vendor/huawei/hwgra/proprietary/lib64/libshim_gui.so:system/lib64/libshim_gui.so \
     vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib64/libshim_gui.so \
-    vendor/huawei/hwgra/proprietary/lib64/libmedia.so:system/lib64/libshim_media.so \
-    vendor/huawei/hwgra/proprietary/lib/libmedia.so:system/lib64/libshim_media.so \
+    vendor/huawei/hwgra/proprietary/lib64/libshim_media.so:system/lib64/libshim_media.so \
+    vendor/huawei/hwgra/proprietary/lib/libshim_media.so:system/lib/libshim_media.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/sensorcaps.default.so:system/lib/hw/sensorcaps.default.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/sensorcaps.default.so:system/lib64/hw/sensorcaps.default.so \
 	vendor/huawei/hwgra/proprietary/lib/libdcamera_sr.so:system/lib/libdcamera_sr.so \
@@ -597,7 +599,12 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/nonstock/lib/libstlport.so:system/lib/libstlport.so \
 	vendor/huawei/hwgra/nonstock/lib64/libdcamera_capture.so:system/lib64/libdcamera_capture.so \
 	vendor/huawei/hwgra/nonstock/lib64/libmorpho_effect_library5.so:system/lib64/libmorpho_effect_library5.so \
-	vendor/huawei/hwgra/nonstock/lib64/libstlport.so:system/lib64/libstlport.so 
+	vendor/huawei/hwgra/nonstock/lib64/libstlport.so:system/lib64/libstlport.so \
+	vendor/huawei/hwgra/proprietary/lib/libshim_camera_client.so:system/lib/libshim_camera_client.so \
+	vendor/huawei/hwgra/proprietary/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
+	vendor/huawei/hwgra/proprietary/lib/libstagefright_foundation.so:system/lib64/libshim_stagefright_foundation.so \
+	vendor/huawei/hwgra/proprietary/lib64/libstagefright_foundation.so:system/lib64/libshim_stagefright_foundation.so \
+
 	
 	
 	
