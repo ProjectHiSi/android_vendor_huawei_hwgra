@@ -602,7 +602,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/nonstock/lib64/libstlport.so:system/lib64/libstlport.so \
 	vendor/huawei/hwgra/proprietary/lib/libshim_camera_client.so:system/lib/libshim_camera_client.so \
 	vendor/huawei/hwgra/proprietary/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
-	vendor/huawei/hwgra/proprietary/lib/libstagefright_foundation.so:system/lib64/libshim_stagefright_foundation.so \
+	vendor/huawei/hwgra/proprietary/lib/libstagefright_foundation.so:system/lib/libshim_stagefright_foundation.so \
 	vendor/huawei/hwgra/proprietary/lib64/libstagefright_foundation.so:system/lib64/libshim_stagefright_foundation.so \
 
 	
