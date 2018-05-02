@@ -604,6 +604,12 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
 	vendor/huawei/hwgra/proprietary/lib/libstagefright_foundation.so:system/lib/libshim_stagefright_foundation.so \
 	vendor/huawei/hwgra/proprietary/lib64/libstagefright_foundation.so:system/lib64/libshim_stagefright_foundation.so \
+	vendor/huawei/hwgra/proprietary/lib/libstagefright.huawei.so:system/lib/libstagefright.huawei.so \
+	vendor/huawei/hwgra/proprietary/lib/libstagefright_soft_ffmpegaudiodec.so:system/lib/libstagefright_soft_ffmpegaudiodec.so \
+	vendor/huawei/hwgra/proprietary/lib/libstagefright_soft_ffmpegvideodec.so:system/lib/libstagefright_soft_ffmpegvideodec.so \
+	vendor/huawei/hwgra/proprietary/lib64/libstagefright.huawei.so:system/lib64/libstagefright.huawei.so \
+	vendor/huawei/hwgra/proprietary/lib64/libstagefright_soft_ffmpegaudiodec.so:system/lib64/libstagefright_soft_ffmpegaudiodec.so \
+	vendor/huawei/hwgra/proprietary/lib64/libstagefright_soft_ffmpegvideodec.so:system/lib64/libstagefright_soft_ffmpegvideodec.so \
 
 	
 	
