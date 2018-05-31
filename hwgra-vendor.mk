@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/bin/gps4752logd:system/bin/gps4752logd \
 	vendor/huawei/hwgra/proprietary/bin/glgps4752:system/bin/glgps4752 \
 	vendor/huawei/hwgra/proprietary/bin/gpslogd:system/bin/gpslogd \
+	vendor/huawei/hwgra/proprietary/bin/gpslogd:system/bin/HwCamCfgSvr \
 	vendor/huawei/hwgra/proprietary/lib/libgps_factory_test.so:system/lib/libgps_factory_test.so \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config_cl.xml:system/etc/gps47531config_cl.xml \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config_cl_beta.xml:system/etc/gps47531config_cl_beta.xml \
@@ -538,4 +539,39 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/etc/camera/dcvalidation.xml:system/etc/camera/dcvalidation.xml \
 	vendor/huawei/hwgra/proprietary/etc/camera/ppconfig.xml:system/etc/camera/ppconfig.xml \
 	vendor/huawei/hwgra/proprietary/etc/camera/ippalgoconfig.xml:system/etc/camera/ippalgoconfig.xml \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.s.ov8865.so:system/lib64/hwcam/hwcam.hi3635.GRACE.s.ov8865.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.s.imx278_sunny.so:system/lib64/hwcam/hwcam.hi3635.GRACE.s.imx278_sunny.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.s.imx278_liteon.so:system/lib64/hwcam/hwcam.hi3635.GRACE.s.imx278_liteon.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.s.imx278_lg.so:system/lib64/hwcam/hwcam.hi3635.GRACE.s.imx278_lg.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.s.imx278.so:system/lib64/hwcam/hwcam.hi3635.GRACE.s.imx278.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.s.imx214.so:system/lib64/hwcam/hwcam.hi3635.GRACE.s.imx214.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.s.imx179_udp.so:system/lib64/hwcam/hwcam.hi3635.GRACE.s.imx179_udp.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.s.imx179.so:system/lib64/hwcam/hwcam.hi3635.GRACE.s.imx179.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.p.ov8865.so:system/lib64/hwcam/hwcam.hi3635.GRACE.p.ov8865.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.p.imx278_sunny.so:system/lib64/hwcam/hwcam.hi3635.GRACE.p.imx278_sunny.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.p.imx278_liteon.so:system/lib64/hwcam/hwcam.hi3635.GRACE.p.imx278_liteon.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.p.imx278_lg.so:system/lib64/hwcam/hwcam.hi3635.GRACE.p.imx278_lg.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.p.imx278.so:system/lib64/hwcam/hwcam.hi3635.GRACE.p.imx278.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.p.imx214.so:system/lib64/hwcam/hwcam.hi3635.GRACE.p.imx214.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.p.imx179_udp.so:system/lib64/hwcam/hwcam.hi3635.GRACE.p.imx179_udp.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.p.imx179.so:system/lib64/hwcam/hwcam.hi3635.GRACE.p.imx179.so \
+	vendor/huawei/hwgra/proprietary/lib64/hwcam/hwcam.ddt.so:system/lib64/hwcam/hwcam.ddt.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.m.GRACE.so:system/lib/hwcam/hwcam.hi3635.m.GRACE.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.s.ov8865.so:system/lib/hwcam/hwcam.hi3635.GRACE.s.ov8865.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.s.imx278_sunny.so:system/lib/hwcam/hwcam.hi3635.GRACE.s.imx278_sunny.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.s.imx278_liteon.so:system/lib/hwcam/hwcam.hi3635.GRACE.s.imx278_liteon.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.s.imx278_lg.so:system/lib/hwcam/hwcam.hi3635.GRACE.s.imx278_lg.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.s.imx278.so:system/lib/hwcam/hwcam.hi3635.GRACE.s.imx278.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.s.imx214.so:system/lib/hwcam/hwcam.hi3635.GRACE.s.imx214.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.s.imx179_udp.so:system/lib/hwcam/hwcam.hi3635.GRACE.s.imx179_udp.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.s.imx179.so:system/lib/hwcam/hwcam.hi3635.GRACE.s.imx179.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.p.ov8865.so:system/lib/hwcam/hwcam.hi3635.GRACE.p.ov8865.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.p.imx278_sunny.so:system/lib/hwcam/hwcam.hi3635.GRACE.p.imx278_sunny.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.p.imx278_liteon.so:system/lib/hwcam/hwcam.hi3635.GRACE.p.imx278_liteon.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.p.imx278_lg.so:system/lib/hwcam/hwcam.hi3635.GRACE.p.imx278_lg.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.p.imx278.so:system/lib/hwcam/hwcam.hi3635.GRACE.p.imx278.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.p.imx214.so:system/lib/hwcam/hwcam.hi3635.GRACE.p.imx214.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.p.imx179_udp.so:system/lib/hwcam/hwcam.hi3635.GRACE.p.imx179_udp.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.p.imx179.so:system/lib/hwcam/hwcam.hi3635.GRACE.p.imx179.so \
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.ddt.so:system/lib/hwcam/hwcam.ddt.so 
 
