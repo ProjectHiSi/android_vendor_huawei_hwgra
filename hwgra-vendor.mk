@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/bin/gps4752logd:system/bin/gps4752logd \
 	vendor/huawei/hwgra/proprietary/bin/glgps4752:system/bin/glgps4752 \
 	vendor/huawei/hwgra/proprietary/bin/gpslogd:system/bin/gpslogd \
-	vendor/huawei/hwgra/proprietary/bin/gpslogd:system/bin/HwCamCfgSvr \
+	vendor/huawei/hwgra/proprietary/bin/HwCamCfgSvr:system/bin/HwCamCfgSvr \
 	vendor/huawei/hwgra/proprietary/lib/libgps_factory_test.so:system/lib/libgps_factory_test.so \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config_cl.xml:system/etc/gps47531config_cl.xml \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config_cl_beta.xml:system/etc/gps47531config_cl_beta.xml \
