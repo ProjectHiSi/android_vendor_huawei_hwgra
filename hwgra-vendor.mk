@@ -62,8 +62,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/libgps_factory_test.so:system/lib64/libgps_factory_test.so \
 	vendor/huawei/hwgra/proprietary/lib64/libviagpsrpc.so:system/lib64/libviagpsrpc.so \
 	vendor/huawei/hwgra/proprietary/lib64/librpc.so:system/lib64/librpc.so \
-	vendor/huawei/hwgra/proprietary/lib/libhwuibp.so:system/lib/libhwuibp.so \
-	vendor/huawei/hwgra/proprietary/lib64/libhwuibp.so:system/lib64/libhwuibp.so \
 	vendor/huawei/hwgra/proprietary/lib/libexif.so:system/lib/libexif.so \
 	vendor/huawei/hwgra/proprietary/lib64/libexif.so:system/lib64/libexif.so \
 	vendor/huawei/hwgra/proprietary/miniisp/TBM_Latour2.bin:system/miniisp/TBM_Latour2.bin \
@@ -573,5 +571,19 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.p.imx214.so:system/lib/hwcam/hwcam.hi3635.GRACE.p.imx214.so \
 	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.p.imx179_udp.so:system/lib/hwcam/hwcam.hi3635.GRACE.p.imx179_udp.so \
 	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.hi3635.GRACE.p.imx179.so:system/lib/hwcam/hwcam.hi3635.GRACE.p.imx179.so \
-	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.ddt.so:system/lib/hwcam/hwcam.ddt.so 
-
+	vendor/huawei/hwgra/proprietary/lib/hwcam/hwcam.ddt.so:system/lib/hwcam/hwcam.ddt.so \
+	vendor/huawei/hwgra/proprietary/lib/libcamera_algo.so:system/lib/libcamera_algo.so \
+	vendor/huawei/hwgra/proprietary/lib/libcamera_ae.so:system/lib/libcamera_ae.so \
+	vendor/huawei/hwgra/proprietary/lib/libcamera_af.so:system/lib/libcamera_af.so \
+	vendor/huawei/hwgra/proprietary/lib/libcamera_core.so:system/lib/libcamera_core.so \
+	vendor/huawei/hwgra/proprietary/lib/imedia_filters.so:system/lib/imedia_filters.so \
+	vendor/huawei/hwgra/proprietary/lib/libHW_BShutter.so:system/lib/libHW_BShutter.so \
+	vendor/huawei/hwgra/proprietary/lib/libcamera_flash.so:system/lib/libcamera_flash.so \
+	vendor/huawei/hwgra/proprietary/lib/libSmartAE.so:system/lib/libSmartAE.so \
+	vendor/huawei/hwgra/proprietary/lib/libmrc_cg_postprocess_cl.so:system/lib/libmrc_cg_postprocess_cl.so \
+	vendor/huawei/hwgra/proprietary/isp/isp.bin:system/isp/isp.bin \
+	vendor/huawei/hwgra/nonstock/lib/libdcamera_capture.so:system/lib/libdcamera_capture.so \
+	vendor/huawei/hwgra/nonstock/lib/libmorpho_effect_library5.so:system/lib/libmorpho_effect_library5.so \
+	vendor/huawei/hwgra/nonstock/lib64/libdcamera_capture.so:system/lib64/libdcamera_capture.so \
+	vendor/huawei/hwgra/nonstock/lib64/libmorpho_effect_library5.so:system/lib64/libmorpho_effect_library5.so \
+	vendor/huawei/hwgra/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so 
