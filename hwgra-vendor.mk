@@ -32,32 +32,28 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/vendor/framework/com.huawei.audioalgo.jar:system/vendor/framework/com.huawei.audioalgo.jar \
 	vendor/huawei/hwgra/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
+	vendor/huawei/hwgra/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/libGLES_mali.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-	vendor/huawei/hwgra/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-	vendor/huawei/hwgra/proprietary/vendor/lib/libwvm.so:system/lib/libwvm.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
+	vendor/huawei/hwgra/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/libGLES_mali.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
 	vendor/huawei/hwgra/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
 	vendor/huawei/hwgra/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
 	vendor/huawei/hwgra/proprietary/bin/gpsdaemon:system/bin/gpsdaemon \
 	vendor/huawei/hwgra/proprietary/bin/glgps47531:system/bin/glgps47531 \
 	vendor/huawei/hwgra/proprietary/bin/glgps47531cl:system/bin/glgps47531cl \
-	vendor/huawei/hwgra/proprietary/bin/gps4752logd:system/bin/gps4752logd \
-	vendor/huawei/hwgra/proprietary/bin/glgps4752:system/bin/glgps4752 \
 	vendor/huawei/hwgra/proprietary/bin/gpslogd:system/bin/gpslogd \
 	vendor/huawei/hwgra/proprietary/bin/HwCamCfgSvr:system/bin/HwCamCfgSvr \
 	vendor/huawei/hwgra/proprietary/lib/libgps_factory_test.so:system/lib/libgps_factory_test.so \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config_cl.xml:system/etc/gps47531config_cl.xml \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config_cl_beta.xml:system/etc/gps47531config_cl_beta.xml \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config.xml:system/etc/gps47531config.xml \
-	vendor/huawei/hwgra/proprietary/etc/gps4752.conf:system/etc/gps4752.conf \
 	vendor/huawei/hwgra/proprietary/etc/gps.conf:system/etc/gps.conf \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config_beta.xml:system/etc/gps47531config_beta.xml \
-	vendor/huawei/hwgra/proprietary/etc/gps4752config.xml:system/etc/gps4752config.xml \
 	vendor/huawei/hwgra/proprietary/lib64/libhuaweigpsrpc.so:system/lib64/libhuaweigpsrpc.so \
 	vendor/huawei/hwgra/proprietary/lib64/libgps_factory_test.so:system/lib64/libgps_factory_test.so \
 	vendor/huawei/hwgra/proprietary/lib64/libviagpsrpc.so:system/lib64/libviagpsrpc.so \
@@ -117,7 +113,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/hw/camera.hi3635.so:system/lib64/hw/camera.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/copybit.hi3635.so:system/lib64/hw/copybit.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/flp.default.so:system/lib64/hw/flp.default.so \
-	vendor/huawei/hwgra/proprietary/lib64/hw/gps4752.default.so:system/lib64/hw/gps4752.default.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/gps47531.default.so:system/lib64/hw/gps47531.default.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/gps47531.default.so:system/lib64/hw/gps.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/gps47531cl.default.so:system/lib64/hw/gps47531cl.default.so \
@@ -228,6 +223,8 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/libhuaweiaudioeffectutil.so:system/lib/libhuaweiaudioeffectutil.so \
 	vendor/huawei/hwgra/proprietary/lib/libhuaweiprocessing.so:system/lib/libhuaweiprocessing.so \
 	vendor/huawei/hwgra/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
+	vendor/huawei/hwgra/proprietary/lib/libGLESv3.so:system/lib/libGLESv3.so \
+	vendor/huawei/hwgra/proprietary/lib64/libGLESv3.so:system/lib64/libGLESv3.so \
 	vendor/huawei/hwgra/proprietary/etc/srs/models.txt:system/etc/srs/models.txt \
 	vendor/huawei/hwgra/proprietary/etc/srs/srs_processing.cfg:system/etc/srs/srs_processing.cfg \
 	vendor/huawei/hwgra/proprietary/etc/srs/srsmodels.lic:system/etc/srs/srsmodels.lic \
@@ -586,4 +583,9 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/nonstock/lib/libmorpho_effect_library5.so:system/lib/libmorpho_effect_library5.so \
 	vendor/huawei/hwgra/nonstock/lib64/libdcamera_capture.so:system/lib64/libdcamera_capture.so \
 	vendor/huawei/hwgra/nonstock/lib64/libmorpho_effect_library5.so:system/lib64/libmorpho_effect_library5.so \
-	vendor/huawei/hwgra/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so 
+	vendor/huawei/hwgra/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
+	vendor/huawei/hwgra/proprietary/lib64/libomx_vxe.so:system/lib64/libomx_vxe.so \
+	vendor/huawei/hwgra/proprietary/lib64/libomx_vxd.so:system/lib64/libomx_vxd.so \
+	vendor/huawei/hwgra/proprietary/lib/libomx_vxe.so:system/lib/libomx_vxe.so \
+	vendor/huawei/hwgra/proprietary/lib/libomx_vxd.so:system/lib/libomx_vxd.so 
+	
