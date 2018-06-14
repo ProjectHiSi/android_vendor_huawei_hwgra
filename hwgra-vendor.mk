@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/vendor/firmware/fw_bcm4334_apsta_hw.bin:system/vendor/firmware/fw_bcm4334_apsta_hw.bin \
 	vendor/huawei/hwgra/proprietary/vendor/firmware/BCM4334B0_002.001.013.1837.2355.hcd:system/vendor/firmware/BCM4334B0_002.001.013.1837.2355.hcd \
 	vendor/huawei/hwgra/proprietary/vendor/framework/com.huawei.audioalgo.jar:system/vendor/framework/com.huawei.audioalgo.jar \
+	vendor/huawei/hwgra/proprietary/framework/com.hisi.perfhub.jar:system/framework/com.hisi.perfhub.jar \
 	vendor/huawei/hwgra/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/libGLES_mali.so \
@@ -60,12 +61,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/librpc.so:system/lib64/librpc.so \
 	vendor/huawei/hwgra/proprietary/lib/libexif.so:system/lib/libexif.so \
 	vendor/huawei/hwgra/proprietary/lib64/libexif.so:system/lib64/libexif.so \
-	vendor/huawei/hwgra/proprietary/miniisp/TBM_Latour2.bin:system/miniisp/TBM_Latour2.bin \
-	vendor/huawei/hwgra/proprietary/miniisp/TBM_Latour.bin:system/miniisp/TBM_Latour.bin \
-	vendor/huawei/hwgra/proprietary/miniisp/miniBoot2.bin:system/miniisp/miniBoot2.bin \
-	vendor/huawei/hwgra/proprietary/miniisp/miniBoot.bin:system/miniisp/miniBoot.bin \
-	vendor/huawei/hwgra/proprietary/miniisp/chip_det.bin:system/miniisp/chip_det.bin \
-	vendor/huawei/hwgra/proprietary/isp/isp.bin:system/isp/isp.bin \
 	vendor/huawei/hwgra/proprietary/fpgaice40/GRACE-CLG-V0.bin:system/fpgaice40/GRACE-CLG-V0.bin \
 	vendor/huawei/hwgra/proprietary/fpgaice40/GRACE-CLG-V0.txt:system/fpgaice40/GRACE-CLG-V0.txt \
 	vendor/huawei/hwgra/proprietary/fpgaice40/GRACE-CLG-V1.bin:system/fpgaice40/GRACE-CLG-V1.bin \
@@ -96,7 +91,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/fpgaice40/LB_ALL_V4.txt:system/fpgaice40/LB_ALL_V4.txt \
 	vendor/huawei/hwgra/proprietary/fpgaice40/LB_ALL_VN1.bin:system/fpgaice40/LB_ALL_VN1.bin \
 	vendor/huawei/hwgra/proprietary/fpgaice40/LB_ALL_VN1.txt:system/fpgaice40/LB_ALL_VN1.txt \
-	vendor/huawei/hwgra/proprietary/isp/isp.bin:system/isp/isp.bin \
 	vendor/huawei/hwgra/proprietary/lib/libservices.huawei.so:system/lib/libservices.huawei.so \
 	vendor/huawei/hwgra/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
 	vendor/huawei/hwgra/proprietary/lib/libmedialogservice.so:system/lib/libmedialogservice.so \
@@ -223,8 +217,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/libhuaweiaudioeffectutil.so:system/lib/libhuaweiaudioeffectutil.so \
 	vendor/huawei/hwgra/proprietary/lib/libhuaweiprocessing.so:system/lib/libhuaweiprocessing.so \
 	vendor/huawei/hwgra/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
-	vendor/huawei/hwgra/proprietary/lib/libGLESv3.so:system/lib/libGLESv3.so \
-	vendor/huawei/hwgra/proprietary/lib64/libGLESv3.so:system/lib64/libGLESv3.so \
 	vendor/huawei/hwgra/proprietary/etc/srs/models.txt:system/etc/srs/models.txt \
 	vendor/huawei/hwgra/proprietary/etc/srs/srs_processing.cfg:system/etc/srs/srs_processing.cfg \
 	vendor/huawei/hwgra/proprietary/etc/srs/srsmodels.lic:system/etc/srs/srsmodels.lic \
@@ -365,6 +357,9 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/libstagefright.huawei.so:system/lib64/libstagefright.huawei.so \
 	vendor/huawei/hwgra/proprietary/lib64/libstagefright_soft_ffmpegaudiodec.so:system/lib64/libstagefright_soft_ffmpegaudiodec.so \
 	vendor/huawei/hwgra/proprietary/lib64/libstagefright_soft_ffmpegvideodec.so:system/lib64/libstagefright_soft_ffmpegvideodec.so \
+	vendor/huawei/hwgra/proprietary/lib64/lib_k3_ffmpeg.so:system/lib64/lib_k3_ffmpeg.so \
+	vendor/huawei/hwgra/proprietary/lib/lib_k3_ffmpeg.so:system/lib/lib_k3_ffmpeg.so \
+	vendor/huawei/hwgra/proprietary/lib/libffmpeg_neon.so:system/lib/libffmpeg_neon.so \
 	vendor/huawei/hwgra/proprietary/lib64/libjpegenchw.so:system/lib64/libjpegenchw.so \
 	vendor/huawei/hwgra/proprietary/lib/libjpegenchw.so:system/lib/libjpegenchw.so \
 	vendor/huawei/hwgra/proprietary/lib/libHWCamCfgSvr.so:system/lib/libHWCamCfgSvr.so \
@@ -375,6 +370,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/nonstock/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
 	vendor/huawei/hwgra/nonstock/lib/libhwlog.so:system/lib/libhwlog.so \
 	vendor/huawei/hwgra/nonstock/lib64/libhwlog.so:system/lib64/libhwlog.so \
+	vendor/huawei/hwgra/nonstock/fonts/DroidSansFallback.ttf:system/fonts/DroidSansFallback.ttf \
 	vendor/huawei/hwgra/proprietary/etc/camera/bshutter/imx179/algo.xml:system/etc/camera/bshutter/imx179/algo.xml \
 	vendor/huawei/hwgra/proprietary/etc/camera/bshutter/imx179/info.xml:system/etc/camera/bshutter/imx179/info.xml \
 	vendor/huawei/hwgra/proprietary/etc/camera/bshutter/imx278/algo.xml:system/etc/camera/bshutter/imx278/algo.xml \
@@ -578,10 +574,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/libcamera_flash.so:system/lib/libcamera_flash.so \
 	vendor/huawei/hwgra/proprietary/lib/libSmartAE.so:system/lib/libSmartAE.so \
 	vendor/huawei/hwgra/proprietary/lib/libmrc_cg_postprocess_cl.so:system/lib/libmrc_cg_postprocess_cl.so \
-	vendor/huawei/hwgra/proprietary/isp/isp.bin:system/isp/isp.bin \
-	vendor/huawei/hwgra/nonstock/lib/libdcamera_capture.so:system/lib/libdcamera_capture.so \
 	vendor/huawei/hwgra/nonstock/lib/libmorpho_effect_library5.so:system/lib/libmorpho_effect_library5.so \
-	vendor/huawei/hwgra/nonstock/lib64/libdcamera_capture.so:system/lib64/libdcamera_capture.so \
 	vendor/huawei/hwgra/nonstock/lib64/libmorpho_effect_library5.so:system/lib64/libmorpho_effect_library5.so \
 	vendor/huawei/hwgra/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
 	vendor/huawei/hwgra/proprietary/lib64/libomx_vxe.so:system/lib64/libomx_vxe.so \
