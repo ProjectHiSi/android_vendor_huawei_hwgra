@@ -580,5 +580,11 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/libomx_vxe.so:system/lib64/libomx_vxe.so \
 	vendor/huawei/hwgra/proprietary/lib64/libomx_vxd.so:system/lib64/libomx_vxd.so \
 	vendor/huawei/hwgra/proprietary/lib/libomx_vxe.so:system/lib/libomx_vxe.so \
-	vendor/huawei/hwgra/proprietary/lib/libomx_vxd.so:system/lib/libomx_vxd.so 
+	vendor/huawei/hwgra/proprietary/lib/libomx_vxd.so:system/lib/libomx_vxd.so \
+	vendor/huawei/hwgra/proprietary/miniisp/TBM_Latour2.bin:system/miniisp/TBM_Latour2.bin \
+	vendor/huawei/hwgra/proprietary/miniisp/TBM_Latour.bin:system/miniisp/TBM_Latour.bin \
+	vendor/huawei/hwgra/proprietary/miniisp/miniBoot2.bin:system/miniisp/miniBoot2.bin \
+	vendor/huawei/hwgra/proprietary/miniisp/miniBoot.bin:system/miniisp/miniBoot.bin \
+	vendor/huawei/hwgra/proprietary/miniisp/chip_det.bin:system/miniisp/chip_det.bin \
+	vendor/huawei/hwgra/proprietary/isp/isp.bin:system/isp/isp.bin 
 	
