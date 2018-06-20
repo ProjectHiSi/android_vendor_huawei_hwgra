@@ -46,12 +46,9 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
 	vendor/huawei/hwgra/proprietary/bin/gpsdaemon:system/bin/gpsdaemon \
 	vendor/huawei/hwgra/proprietary/bin/glgps47531:system/bin/glgps47531 \
-	vendor/huawei/hwgra/proprietary/bin/glgps47531cl:system/bin/glgps47531cl \
 	vendor/huawei/hwgra/proprietary/bin/gpslogd:system/bin/gpslogd \
 	vendor/huawei/hwgra/proprietary/bin/HwCamCfgSvr:system/bin/HwCamCfgSvr \
 	vendor/huawei/hwgra/proprietary/lib/libgps_factory_test.so:system/lib/libgps_factory_test.so \
-	vendor/huawei/hwgra/proprietary/etc/gps47531config_cl.xml:system/etc/gps47531config_cl.xml \
-	vendor/huawei/hwgra/proprietary/etc/gps47531config_cl_beta.xml:system/etc/gps47531config_cl_beta.xml \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config.xml:system/etc/gps47531config.xml \
 	vendor/huawei/hwgra/proprietary/etc/gps.conf:system/etc/gps.conf \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config_beta.xml:system/etc/gps47531config_beta.xml \
@@ -107,9 +104,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/hw/camera.hi3635.so:system/lib64/hw/camera.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/copybit.hi3635.so:system/lib64/hw/copybit.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/flp.default.so:system/lib64/hw/flp.default.so \
-	vendor/huawei/hwgra/proprietary/lib64/hw/gps47531.default.so:system/lib64/hw/gps47531.default.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/gps47531.default.so:system/lib64/hw/gps.hi3635.so \
-	vendor/huawei/hwgra/proprietary/lib64/hw/gps47531cl.default.so:system/lib64/hw/gps47531cl.default.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/keystore.hi3635.so:system/lib64/hw/keystore.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/memtrack.hi3635.so:system/lib64/hw/memtrack.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/sensorhub.default.so:system/lib64/hw/sensorhub.default.so \
