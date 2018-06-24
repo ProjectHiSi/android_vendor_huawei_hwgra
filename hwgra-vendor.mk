@@ -63,8 +63,10 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/bin/HwCamCfgSvr:system/bin/HwCamCfgSvr \
 	vendor/huawei/hwgra/proprietary/lib/libgps_factory_test.so:system/lib/libgps_factory_test.so \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config.xml:system/etc/gps47531config.xml \
-	vendor/huawei/hwgra/proprietary/etc/gps.conf:system/etc/gps.conf \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config_beta.xml:system/etc/gps47531config_beta.xml \
+	vendor/huawei/hwgra/proprietary/etc/gps47531config_cl.xml:system/etc/gps47531config_cl.xml \
+	vendor/huawei/hwgra/proprietary/etc/gps47531config_cl_beta.xml:system/etc/gps47531config_cl_beta.xml \
+	vendor/huawei/hwgra/proprietary/etc/gps.conf:system/etc/gps.conf \
 	vendor/huawei/hwgra/proprietary/lib64/libhuaweigpsrpc.so:system/lib64/libhuaweigpsrpc.so \
 	vendor/huawei/hwgra/proprietary/lib64/libgps_factory_test.so:system/lib64/libgps_factory_test.so \
 	vendor/huawei/hwgra/proprietary/lib64/libviagpsrpc.so:system/lib64/libviagpsrpc.so \
