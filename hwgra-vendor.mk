@@ -61,6 +61,8 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/bin/glgps47531:system/bin/glgps47531 \
 	vendor/huawei/hwgra/proprietary/bin/gpslogd:system/bin/gpslogd \
 	vendor/huawei/hwgra/proprietary/bin/HwCamCfgSvr:system/bin/HwCamCfgSvr \
+	vendor/huawei/hwgra/proprietary/bin/hostapd:system/bin/hostapd \
+	vendor/huawei/hwgra/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
 	vendor/huawei/hwgra/proprietary/lib/libgps_factory_test.so:system/lib/libgps_factory_test.so \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config.xml:system/etc/gps47531config.xml \
 	vendor/huawei/hwgra/proprietary/etc/gps47531config_beta.xml:system/etc/gps47531config_beta.xml \
@@ -71,7 +73,30 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/libgps_factory_test.so:system/lib64/libgps_factory_test.so \
 	vendor/huawei/hwgra/proprietary/lib64/libviagpsrpc.so:system/lib64/libviagpsrpc.so \
 	vendor/huawei/hwgra/proprietary/lib64/librpc.so:system/lib64/librpc.so \
-	vendor/huawei/hwgra/proprietary/lib/libexif.so:system/lib/libexif.so \
+	vendor/huawei/hwgra/proprietary/lib/libtrack.so:system/lib/libtrack.so \
+	vendor/huawei/hwgra/proprietary/lib/libmrc_cg_postprocess.so:system/lib/libmrc_cg_postprocess.so \
+	vendor/huawei/hwgra/proprietary/lib/libmrc_cg_niceFood.so:system/lib/libmrc_cg_niceFood.so \
+	vendor/huawei/hwgra/proprietary/lib/libmrc_cg_mfdenoise.so:system/lib/libmrc_cg_mfdenoise.so \
+	vendor/huawei/hwgra/proprietary/lib/libmrc_cg_filters.so:system/lib/libmrc_cg_filters.so \
+	vendor/huawei/hwgra/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
+	vendor/huawei/hwgra/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
+	vendor/huawei/hwgra/proprietary/lib/libhdr.so:system/lib/libhdr.so \
+	vendor/huawei/hwgra/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
+	vendor/huawei/hwgra/proprietary/lib/libfaclog.so:system/lib/libfaclog.so \
+	vendor/huawei/hwgra/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+	vendor/huawei/hwgra/proprietary/lib/libbt_factory_test.so:system/lib/libbt_factory_test.so \
+	vendor/huawei/hwgra/proprietary/lib/libaes.so:system/lib/libaes.so \
+	vendor/huawei/hwgra/proprietary/lib/lib_nve_operation.so:system/lib/lib_nve_operation.so \
+	vendor/huawei/hwgra/proprietary/lib/lib_atprotocolsw.so:system/lib/lib_atprotocolsw.so \
+	vendor/huawei/hwgra/proprietary/lib/libVideoDenoise.so:system/lib/libVideoDenoise.so \
+	vendor/huawei/hwgra/proprietary/lib/libSFBE.so:system/lib/libSFBE.so \
+	vendor/huawei/hwgra/proprietary/lib/libRefocusContrastPosition.so:system/lib/libRefocusContrastPosition.so \
+	vendor/huawei/hwgra/proprietary/lib/libFaceBeautyMeiwoJNI.so:system/lib/libFaceBeautyMeiwoJNI.so \
+	vendor/huawei/hwgra/proprietary/lib/libFaceBeautyMeiwo.so:system/lib/libFaceBeautyMeiwo.so \
+	vendor/huawei/hwgra/proprietary/lib/libFNVfbEngineLib.so:system/lib/libFNVfbEngineLib.so \
+	vendor/huawei/hwgra/proprietary/lib/libDocBeauty.so:system/lib/libDocBeauty.so \
+	vendor/huawei/hwgra/proprietary/lib/libCompareBitmap.so:system/lib/libCompareBitmap.so \
+	vendor/huawei/hwgra/proprietary/lib/libBestShot.so:system/lib/libBestShot.so \
 	vendor/huawei/hwgra/proprietary/lib64/libexif.so:system/lib64/libexif.so \
 	vendor/huawei/hwgra/proprietary/fpgaice40/GRACE-CLG-V0.bin:system/fpgaice40/GRACE-CLG-V0.bin \
 	vendor/huawei/hwgra/proprietary/fpgaice40/GRACE-CLG-V0.txt:system/fpgaice40/GRACE-CLG-V0.txt \
@@ -127,6 +152,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/hw/copybit.hi3635.so:system/lib/hw/copybit.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/keystore.hi3635.so:system/lib/hw/keystore.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/memtrack.hi3635.so:system/lib/hw/memtrack.hi3635.so \
+	vendor/huawei/hwgra/proprietary/lib/hw/displaycaps.default.so:system/lib/hw/displaycaps.default.so \
 	vendor/huawei/hwgra/proprietary/bin/keystore:system/bin/keystore \
 	vendor/huawei/hwgra/proprietary/lib/libsoftkeymasterdevice.so:system/lib/libsoftkeymasterdevice.so \
 	vendor/huawei/hwgra/proprietary/lib64/libsoftkeymasterdevice.so:system/lib64/libsoftkeymasterdevice.so \
@@ -167,9 +193,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	vendor/huawei/hwgra/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
 	vendor/huawei/hwgra/proprietary/bin/mac_addr_normalization:system/bin/mac_addr_normalization \
-	vendor/huawei/hwgra/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-	vendor/huawei/hwgra/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-	vendor/huawei/hwgra/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
 	vendor/huawei/hwgra/proprietary/lib/helix/wmvrender.so:system/lib/helix/wmvrender.so \
 	vendor/huawei/hwgra/proprietary/lib/helix/wmv9.so:system/lib/helix/wmv9.so \
 	vendor/huawei/hwgra/proprietary/lib/helix/wmv8.so:system/lib/helix/wmv8.so \
@@ -380,6 +403,11 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/nonstock/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
 	vendor/huawei/hwgra/nonstock/lib/libhwlog.so:system/lib/libhwlog.so \
 	vendor/huawei/hwgra/nonstock/lib64/libhwlog.so:system/lib64/libhwlog.so \
+	vendor/huawei/hwgra/proprietary/lib64/libwpa_client.so:system/lib64/libwpa_client.so \
+	vendor/huawei/hwgra/proprietary/lib64/libwifipro.so:system/lib64/libwifipro.so \
+	vendor/huawei/hwgra/proprietary/lib64/libvio.so:system/lib64/libvio.so \
+	vendor/huawei/hwgra/proprietary/lib64/libhardware_legacy.so:system/lib64/libhardware_legacy.so \
+	vendor/huawei/hwgra/proprietary/lib64/lib_atprotocolsw.so:system/lib64/lib_atprotocolsw.so \
 	vendor/huawei/hwgra/nonstock/fonts/DroidSansFallback.ttf:system/fonts/DroidSansFallback.ttf \
 	vendor/huawei/hwgra/proprietary/etc/camera/bshutter/imx179/algo.xml:system/etc/camera/bshutter/imx179/algo.xml \
 	vendor/huawei/hwgra/proprietary/etc/camera/bshutter/imx179/info.xml:system/etc/camera/bshutter/imx179/info.xml \
