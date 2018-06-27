@@ -61,14 +61,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/bin/glgps47531:system/bin/glgps47531 \
 	vendor/huawei/hwgra/proprietary/bin/gpslogd:system/bin/gpslogd \
 	vendor/huawei/hwgra/proprietary/bin/HwCamCfgSvr:system/bin/HwCamCfgSvr \
-	vendor/huawei/hwgra/proprietary/bin/hostapd:system/bin/hostapd \
-	vendor/huawei/hwgra/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
 	vendor/huawei/hwgra/proprietary/lib/libgps_factory_test.so:system/lib/libgps_factory_test.so \
-	vendor/huawei/hwgra/proprietary/etc/gps47531config.xml:system/etc/gps47531config.xml \
-	vendor/huawei/hwgra/proprietary/etc/gps47531config_beta.xml:system/etc/gps47531config_beta.xml \
-	vendor/huawei/hwgra/proprietary/etc/gps47531config_cl.xml:system/etc/gps47531config_cl.xml \
-	vendor/huawei/hwgra/proprietary/etc/gps47531config_cl_beta.xml:system/etc/gps47531config_cl_beta.xml \
-	vendor/huawei/hwgra/proprietary/etc/gps.conf:system/etc/gps.conf \
 	vendor/huawei/hwgra/proprietary/lib64/libhuaweigpsrpc.so:system/lib64/libhuaweigpsrpc.so \
 	vendor/huawei/hwgra/proprietary/lib64/libgps_factory_test.so:system/lib64/libgps_factory_test.so \
 	vendor/huawei/hwgra/proprietary/lib64/libviagpsrpc.so:system/lib64/libviagpsrpc.so \
@@ -81,7 +74,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
 	vendor/huawei/hwgra/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
 	vendor/huawei/hwgra/proprietary/lib/libhdr.so:system/lib/libhdr.so \
-	vendor/huawei/hwgra/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
 	vendor/huawei/hwgra/proprietary/lib/libfaclog.so:system/lib/libfaclog.so \
 	vendor/huawei/hwgra/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/huawei/hwgra/proprietary/lib/libbt_factory_test.so:system/lib/libbt_factory_test.so \
@@ -98,6 +90,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/libCompareBitmap.so:system/lib/libCompareBitmap.so \
 	vendor/huawei/hwgra/proprietary/lib/libBestShot.so:system/lib/libBestShot.so \
 	vendor/huawei/hwgra/proprietary/lib64/libexif.so:system/lib64/libexif.so \
+	vendor/huawei/hwgra/proprietary/lib/libexif.so:system/lib/libexif.so \
 	vendor/huawei/hwgra/proprietary/fpgaice40/GRACE-CLG-V0.bin:system/fpgaice40/GRACE-CLG-V0.bin \
 	vendor/huawei/hwgra/proprietary/fpgaice40/GRACE-CLG-V0.txt:system/fpgaice40/GRACE-CLG-V0.txt \
 	vendor/huawei/hwgra/proprietary/fpgaice40/GRACE-CLG-V1.bin:system/fpgaice40/GRACE-CLG-V1.bin \
@@ -403,10 +396,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/nonstock/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
 	vendor/huawei/hwgra/nonstock/lib/libhwlog.so:system/lib/libhwlog.so \
 	vendor/huawei/hwgra/nonstock/lib64/libhwlog.so:system/lib64/libhwlog.so \
-	vendor/huawei/hwgra/proprietary/lib64/libwpa_client.so:system/lib64/libwpa_client.so \
-	vendor/huawei/hwgra/proprietary/lib64/libwifipro.so:system/lib64/libwifipro.so \
-	vendor/huawei/hwgra/proprietary/lib64/libvio.so:system/lib64/libvio.so \
-	vendor/huawei/hwgra/proprietary/lib64/libhardware_legacy.so:system/lib64/libhardware_legacy.so \
 	vendor/huawei/hwgra/proprietary/lib64/lib_atprotocolsw.so:system/lib64/lib_atprotocolsw.so \
 	vendor/huawei/hwgra/nonstock/fonts/DroidSansFallback.ttf:system/fonts/DroidSansFallback.ttf \
 	vendor/huawei/hwgra/proprietary/etc/camera/bshutter/imx179/algo.xml:system/etc/camera/bshutter/imx179/algo.xml \
