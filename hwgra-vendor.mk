@@ -136,6 +136,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/libBootloaderOeminfo.so:system/lib64/libBootloaderOeminfo.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/camera.hi3635.so:system/lib64/hw/camera.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/copybit.hi3635.so:system/lib64/hw/copybit.hi3635.so \
+	vendor/huawei/hwgra/proprietary/lib64/hw/power.hi3635.so:system/lib64/hw/power.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/flp.default.so:system/lib64/hw/flp.default.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/gps47531.default.so:system/lib64/hw/gps.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/keystore.hi3635.so:system/lib64/hw/keystore.hi3635.so \
@@ -145,6 +146,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/hw/copybit.hi3635.so:system/lib/hw/copybit.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/keystore.hi3635.so:system/lib/hw/keystore.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/memtrack.hi3635.so:system/lib/hw/memtrack.hi3635.so \
+	vendor/huawei/hwgra/proprietary/lib/hw/power.hi3635.so:system/lib/hw/power.hi3635.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/displaycaps.default.so:system/lib/hw/displaycaps.default.so \
 	vendor/huawei/hwgra/proprietary/bin/keystore:system/bin/keystore \
 	vendor/huawei/hwgra/proprietary/lib/libsoftkeymasterdevice.so:system/lib/libsoftkeymasterdevice.so \
@@ -369,6 +371,8 @@ PRODUCT_COPY_FILES := \
     vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib64/libshim_gui.so \
     vendor/huawei/hwgra/proprietary/lib64/libshim_media.so:system/lib64/libshim_media.so \
     vendor/huawei/hwgra/proprietary/lib/libshim_media.so:system/lib/libshim_media.so \
+    vendor/huawei/hwgra/proprietary/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
+    vendor/huawei/hwgra/proprietary/lib/libshim_camera_client.so:system/lib/libshim_camera_client.so \
 	vendor/huawei/hwgra/proprietary/lib/hw/sensorcaps.default.so:system/lib/hw/sensorcaps.default.so \
 	vendor/huawei/hwgra/proprietary/lib64/hw/sensorcaps.default.so:system/lib64/hw/sensorcaps.default.so \
 	vendor/huawei/hwgra/proprietary/lib/libpowergenie_native3.so:system/lib/libpowergenie_native3.so \
@@ -613,5 +617,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/miniisp/miniBoot2.bin:system/miniisp/miniBoot2.bin \
 	vendor/huawei/hwgra/proprietary/miniisp/miniBoot.bin:system/miniisp/miniBoot.bin \
 	vendor/huawei/hwgra/proprietary/miniisp/chip_det.bin:system/miniisp/chip_det.bin \
-	vendor/huawei/hwgra/proprietary/isp/isp.bin:system/isp/isp.bin 
+	vendor/huawei/hwgra/proprietary/isp/isp.bin:system/isp/isp.bin \
+	vendor/huawei/hwgra/proprietary/lib/libshim_hwui.so:system/lib/libshim_hwui \
+	vendor/huawei/hwgra/proprietary/lib64/libshim_hwui.so:system/lib64/libshim_hwui \
 	
