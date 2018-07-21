@@ -392,12 +392,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/libHWCamCfgSvr.so:system/lib64/libHWCamCfgSvr.so \
 	vendor/huawei/hwgra/proprietary/lib64/libjpu.so:system/lib64/libjpu.so \
 	vendor/huawei/hwgra/proprietary/lib/libjpu.so:system/lib/libjpu.so \
-	vendor/huawei/hwgra/nonstock/lib/libsensorservice.so:system/lib/libsensorservice.so \
-	vendor/huawei/hwgra/nonstock/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
-	vendor/huawei/hwgra/nonstock/lib/libhwlog.so:system/lib/libhwlog.so \
-	vendor/huawei/hwgra/nonstock/lib64/libhwlog.so:system/lib64/libhwlog.so \
 	vendor/huawei/hwgra/proprietary/lib64/lib_atprotocolsw.so:system/lib64/lib_atprotocolsw.so \
-	vendor/huawei/hwgra/nonstock/fonts/DroidSansFallback.ttf:system/fonts/DroidSansFallback.ttf \
 	vendor/huawei/hwgra/proprietary/etc/camera/bshutter/imx179/algo.xml:system/etc/camera/bshutter/imx179/algo.xml \
 	vendor/huawei/hwgra/proprietary/etc/camera/bshutter/imx179/info.xml:system/etc/camera/bshutter/imx179/info.xml \
 	vendor/huawei/hwgra/proprietary/etc/camera/bshutter/imx278/algo.xml:system/etc/camera/bshutter/imx278/algo.xml \
@@ -601,17 +596,24 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib/libcamera_flash.so:system/lib/libcamera_flash.so \
 	vendor/huawei/hwgra/proprietary/lib/libSmartAE.so:system/lib/libSmartAE.so \
 	vendor/huawei/hwgra/proprietary/lib/libmrc_cg_postprocess_cl.so:system/lib/libmrc_cg_postprocess_cl.so \
-	vendor/huawei/hwgra/nonstock/lib/libmorpho_effect_library5.so:system/lib/libmorpho_effect_library5.so \
-	vendor/huawei/hwgra/nonstock/lib64/libmorpho_effect_library5.so:system/lib64/libmorpho_effect_library5.so \
 	vendor/huawei/hwgra/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
 	vendor/huawei/hwgra/proprietary/lib64/libomx_vxe.so:system/lib64/libomx_vxe.so \
 	vendor/huawei/hwgra/proprietary/lib64/libomx_vxd.so:system/lib64/libomx_vxd.so \
 	vendor/huawei/hwgra/proprietary/lib/libomx_vxe.so:system/lib/libomx_vxe.so \
 	vendor/huawei/hwgra/proprietary/lib/libomx_vxd.so:system/lib/libomx_vxd.so \
+	vendor/huawei/hwgra/proprietary/lib/libshim_camera_client.so:system/lib/libshim_camera_client.so \
+	vendor/huawei/hwgra/proprietary/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
+	vendor/huawei/hwgra/proprietary/lib64/libshim_gui.so:system/lib64/libshim_gui.so \
+	vendor/huawei/hwgra/proprietary/lib/libshim_gui.so:system/lib/libshim_gui.so \
+	vendor/huawei/hwgra/proprietary/lib/libshim_hwui.so:system/lib/libshim_hwui.so \
+	vendor/huawei/hwgra/proprietary/lib64/libshim_hwui.so:system/lib64/libshim_hwui.so \
+	vendor/huawei/hwgra/proprietary/lib/libshim_media.so:system/lib/libshim_media.so \
+	vendor/huawei/hwgra/proprietary/lib64/libshim_media.so:system/lib64/libshim_media.so \
 	vendor/huawei/hwgra/proprietary/miniisp/TBM_Latour2.bin:system/miniisp/TBM_Latour2.bin \
 	vendor/huawei/hwgra/proprietary/miniisp/TBM_Latour.bin:system/miniisp/TBM_Latour.bin \
 	vendor/huawei/hwgra/proprietary/miniisp/miniBoot2.bin:system/miniisp/miniBoot2.bin \
 	vendor/huawei/hwgra/proprietary/miniisp/miniBoot.bin:system/miniisp/miniBoot.bin \
 	vendor/huawei/hwgra/proprietary/miniisp/chip_det.bin:system/miniisp/chip_det.bin \
-	vendor/huawei/hwgra/proprietary/isp/isp.bin:system/isp/isp.bin 
+	vendor/huawei/hwgra/proprietary/isp/isp.bin:system/isp/isp.bin \
+
 	
