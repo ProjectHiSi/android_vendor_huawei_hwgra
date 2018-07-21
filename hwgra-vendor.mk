@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/vendor/firmware/fw_bcm4334_apsta_hw.bin:system/vendor/firmware/fw_bcm4334_apsta_hw.bin \
 	vendor/huawei/hwgra/proprietary/vendor/firmware/BCM4334B0_002.001.013.1837.2355.hcd:system/vendor/firmware/BCM4334B0_002.001.013.1837.2355.hcd \
 	vendor/huawei/hwgra/proprietary/vendor/framework/com.huawei.audioalgo.jar:system/vendor/framework/com.huawei.audioalgo.jar \
-	vendor/huawei/hwgra/proprietary/framework/com.hisi.perfhub.jar:system/framework/com.hisi.perfhub.jar \
 	vendor/huawei/hwgra/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
 	vendor/huawei/hwgra/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/libGLES_mali.so \
@@ -62,6 +61,8 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/bin/gpslogd:system/bin/gpslogd \
 	vendor/huawei/hwgra/proprietary/bin/HwCamCfgSvr:system/bin/HwCamCfgSvr \
 	vendor/huawei/hwgra/proprietary/lib/libgps_factory_test.so:system/lib/libgps_factory_test.so \
+	vendor/huawei/hwgra/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
+	vendor/huawei/hwgra/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
 	vendor/huawei/hwgra/proprietary/lib64/libhuaweigpsrpc.so:system/lib64/libhuaweigpsrpc.so \
 	vendor/huawei/hwgra/proprietary/lib64/libgps_factory_test.so:system/lib64/libgps_factory_test.so \
 	vendor/huawei/hwgra/proprietary/lib64/libviagpsrpc.so:system/lib64/libviagpsrpc.so \
@@ -346,12 +347,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/hwgra/proprietary/lib64/libhwgl.so:system/lib64/libhwgl.so \
 	vendor/huawei/hwgra/proprietary/lib/liblog.so:system/lib/liblog.so \
 	vendor/huawei/hwgra/proprietary/lib64/liblog.so:system/lib64/liblog.so \
-	vendor/huawei/hwgra/proprietary/lib/hw/fm.bcm.hi3635.so:system/lib/hw/fm.bcm.hi3635.so \
-	vendor/huawei/hwgra/proprietary/lib/libfm_interface.so:system/lib/libfm_interface.so \
-	vendor/huawei/hwgra/proprietary/lib/libfm_volume.so:system/lib/libfm_volume.so \
-	vendor/huawei/hwgra/proprietary/lib64/hw/fm.bcm.hi3635.so:system/lib64/hw/fm.bcm.hi3635.so \
-	vendor/huawei/hwgra/proprietary/lib64/libfm_interface.so:system/lib64/libfm_interface.so \
-	vendor/huawei/hwgra/proprietary/lib64/libfm_volume.so:system/lib64/libfm_volume.so \
 	vendor/huawei/hwgra/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
 	vendor/huawei/hwgra/proprietary/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec:system/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec \
 	vendor/huawei/hwgra/proprietary/bin/9b17660b-8968-4eed-917e-dd32379bd548.sec:system/bin/9b17660b-8968-4eed-917e-dd32379bd548.sec \
